@@ -1,7 +1,8 @@
-.movie {
+.card {
   height: 278px;
   border: none;
-  &_img {
+
+  & img {
     object-fit: cover;
     height: 100%;
   }

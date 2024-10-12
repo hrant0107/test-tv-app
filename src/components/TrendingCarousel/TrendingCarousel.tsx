@@ -2,7 +2,7 @@ import React from "react";
 import { FeaturedMovie } from "@src/types/movie";
 
 import styles from "./TrendingCarousel.module.scss";
-import { Movie } from "./Movie/Movie";
+import { TrendingCarouselItem } from "./TrendingCarouselItem/TrendingCarouselItem";
 
 interface TrendingCarouselProps {
   movies: FeaturedMovie[];
@@ -20,7 +20,7 @@ export const TrendingCarousel: React.FC<TrendingCarouselProps> = ({
       </h2>
       <div className={styles.carousel}>
         {movies.map((movie) => (
-          <Movie
+          <TrendingCarouselItem
             key={movie.Id}
             img={movie.CoverImage}
             title={movie.Title}

@@ -1,0 +1,59 @@
+@import "../../../styles/variables.scss";
+
+.videoContent {
+  padding-top: 180px;
+  padding-left: 151px;
+
+  .title {
+    color: $unnamed-color-858688;
+  }
+
+  .videoInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .metaInfo {
+      display: flex;
+      gap: 12px;
+    }
+
+    .description {
+      font: #{$unnamed-font-style-normal} normal #{$unnamed-font-weight-normal}
+        #{$unnamed-font-size-32} / 40px #{$unnamed-font-family-tajawal};
+      color: #f1f1f1;
+      margin-bottom: 26px;
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    button {
+      border-radius: 40px;
+      height: 72px;
+      width: 240px;
+      border: none;
+      outline: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+      font: #{$unnamed-font-style-normal} normal #{$unnamed-font-weight-bold} #{$unnamed-font-size-32} /
+        #{$unnamed-line-spacing-30} #{$unnamed-font-family-tajawal};
+    }
+
+    .info {
+      background: transparent linear-gradient(128deg, #2727f5 0%, #001671 100%)
+        0% 0% no-repeat padding-box;
+      color: #f1f1f1;
+    }
+
+    .play {
+      background: $unnamed-color-f1f1f1 0% 0% no-repeat padding-box;
+      color: #0c0c0c;
+    }
+  }
+}
