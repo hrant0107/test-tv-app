@@ -36,11 +36,11 @@ interface Route {
   }
   
   export const navbarRoutes: NavbarRoute[] = [
-    { path: SEARCH, iconPath: '/assets/icons/ICON - Search.png', title: 'Search' },
-    { path: HOME_PATH, iconPath: '/assets/icons/Group 46.png', title: 'Home' },
-    { path: TV_SHOWS, iconPath: '/assets/icons/Group 56.png', title: 'TV Shows' },
-    { path: MOVIES, iconPath: '/assets/icons/Group 54.png', title: 'Movies' },
-    { path: GENRES, iconPath: '/assets/icons/Group 53.png', title: 'Genres'},
-    { path: WATCH_LATER, iconPath: '/assets/icons/Group 47.png', title: 'Watch Later' }
+    { path: SEARCH, iconPath: '/assets/icons/ICON-Search.png', title: 'Search' },
+    { path: HOME_PATH, iconPath: '/assets/icons/Group46.png', title: 'Home' },
+    { path: TV_SHOWS, iconPath: '/assets/icons/Group56.png', title: 'TV Shows' },
+    { path: MOVIES, iconPath: '/assets/icons/Group54.png', title: 'Movies' },
+    { path: GENRES, iconPath: '/assets/icons/Group53.png', title: 'Genres'},
+    { path: WATCH_LATER, iconPath: '/assets/icons/Group47.png', title: 'Watch Later' }
 
   ];
