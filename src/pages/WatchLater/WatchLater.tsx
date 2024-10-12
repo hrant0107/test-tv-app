@@ -1,6 +1,4 @@
-type Props = {};
-
-const WatchLater = (props: Props) => {
+const WatchLater = () => {
   return <div>WatchLater</div>;
 };
 

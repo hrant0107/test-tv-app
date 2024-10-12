@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Search = (props: Props) => {
+const Search = () => {
   return <div>Search</div>;
 };
 
