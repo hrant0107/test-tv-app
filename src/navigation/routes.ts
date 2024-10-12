@@ -3,6 +3,11 @@ import { ComponentType } from "react";
 import { Layout } from "../components/Layout/Layout";
 import { HOME_PATH, SEARCH, GENRES, MOVIES, TV_SHOWS, WATCH_LATER} from "./paths";
 import { Home } from "@src/pages/Home/Home";
+import Search from "@src/pages/Search/Search";
+import Genres from "@src/pages/Genres/Genres";
+import Movies from "@src/pages/Movies/Movies";
+import TvShows from "@src/pages/TVShows/TvShows";
+import WatchLater from "@src/pages/WatchLater/WatchLater";
 // import { Home } from "@src/pages/Home/Home.tsx";
 
 interface Route {
@@ -19,11 +24,11 @@ interface Route {
       Component: Layout,
       children: [
         { path: HOME_PATH, Component: Home },
-        { path: SEARCH, Component: Home },
-        { path: GENRES, Component: Home },
-        { path: MOVIES, Component: Home },
-        { path: TV_SHOWS, Component: Home },
-        { path: WATCH_LATER, Component: Home },
+        { path: SEARCH, Component: Search },
+        { path: GENRES, Component: Genres },
+        { path: MOVIES, Component: Movies },
+        { path: TV_SHOWS, Component: TvShows },
+        { path: WATCH_LATER, Component: WatchLater },
 
       ]
     }
@@ -36,11 +41,11 @@ interface Route {
   }
   
   export const navbarRoutes: NavbarRoute[] = [
-    { path: SEARCH, iconPath: '/assets/icons/ICON-Search.png', title: 'Search' },
-    { path: HOME_PATH, iconPath: '/assets/icons/Group46.png', title: 'Home' },
-    { path: TV_SHOWS, iconPath: '/assets/icons/Group56.png', title: 'TV Shows' },
-    { path: MOVIES, iconPath: '/assets/icons/Group54.png', title: 'Movies' },
-    { path: GENRES, iconPath: '/assets/icons/Group53.png', title: 'Genres'},
-    { path: WATCH_LATER, iconPath: '/assets/icons/Group47.png', title: 'Watch Later' }
+    { path: SEARCH, iconPath: '/assets/ICON-Search.png', title: 'Search' },
+    { path: HOME_PATH, iconPath: '/assets/Group46.png', title: 'Home' },
+    { path: TV_SHOWS, iconPath: '/assets/Group56.png', title: 'TV Shows' },
+    { path: MOVIES, iconPath: '/assets/Group54.png', title: 'Movies' },
+    { path: GENRES, iconPath: '/assets/Group53.png', title: 'Genres'},
+    { path: WATCH_LATER, iconPath: '/assets/Group47.png', title: 'Watch Later' }
 
   ];
