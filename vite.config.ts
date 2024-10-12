@@ -5,6 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/test-tv-app/',
   resolve: {
     alias: {
       '@src': path.resolve(__dirname, 'src'),

@@ -1,4 +1,3 @@
-// components/TrendingCarousel.tsx
 import React from "react";
 import { FeaturedMovie } from "@src/types/movie";
 
