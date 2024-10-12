@@ -1,0 +1,8 @@
+.movie {
+  height: 278px;
+  border: none;
+  &_img {
+    object-fit: cover;
+    height: 100%;
+  }
+}

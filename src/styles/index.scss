@@ -1,0 +1,90 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Character Styles */
+  .unnamed-character-style-1 {
+    font-family: $unnamed-font-family-tajawal;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-bold;
+    font-size: $unnamed-font-size-92;
+    line-height: $unnamed-line-spacing-42;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-ffffff;
+    text-transform: $unnamed-text-transform-uppercase;
+  }
+
+  .unnamed-character-style-2 {
+    font-family: $unnamed-font-family-tajawal;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-normal;
+    font-size: $unnamed-font-size-36;
+    line-height: $unnamed-line-spacing-43;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-ffffff;
+  }
+
+  .unnamed-character-style-3 {
+    font-family: $unnamed-font-family-tajawal;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-medium;
+    font-size: $unnamed-font-size-32;
+    line-height: $unnamed-line-spacing-38;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-ffffff;
+  }
+
+  .unnamed-character-style-4 {
+    font-family: $unnamed-font-family-tajawal;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-bold;
+    font-size: $unnamed-font-size-32;
+    line-height: $unnamed-line-spacing-30;
+    letter-spacing: $unnamed-character-spacing--0-32;
+    color: $unnamed-color-ffffff;
+  }
+
+  .unnamed-character-style-5 {
+    font-family: $unnamed-font-family-tajawal;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-normal;
+    font-size: $unnamed-font-size-32;
+    line-height: $unnamed-line-spacing-42;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-ffffff;
+  }
+
+  .unnamed-character-style-6 {
+    font-family: $unnamed-font-family-tajawal;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-bold;
+    font-size: $unnamed-font-size-24;
+    line-height: $unnamed-line-spacing-42;
+    letter-spacing: $unnamed-character-spacing-4-8;
+    color: $unnamed-color-858688;
+    text-transform: $unnamed-text-transform-uppercase;
+  }
+
+  .unnamed-character-style-7 {
+    font-family: $unnamed-font-family-tajawal;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-normal;
+    font-size: $unnamed-font-size-24;
+    line-height: $unnamed-line-spacing-30;
+    letter-spacing: $unnamed-character-spacing--0-24;
+    color: $unnamed-color-ffffff;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+}

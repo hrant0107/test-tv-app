@@ -1,0 +1,15 @@
+.user {
+  position: absolute;
+  left: 38px;
+  top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  .avatar {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-color: aqua;
+  }
+}

@@ -1,0 +1,12 @@
+.assideSettings {
+  position: absolute;
+  bottom: 0;
+  left: 38px;
+  display: flex;
+  flex-direction: column;
+
+  .noBackground {
+    background: none !important;
+    border: none;
+  }
+}

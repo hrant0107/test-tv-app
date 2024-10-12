@@ -1,0 +1,22 @@
+@import "../../../../styles/variables.scss";
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 9px 23px;
+  white-space: nowrap;
+  border-radius: 41px;
+
+  &_open {
+    border-radius: 12px;
+  }
+
+  &__text {
+    padding-top: 11px;
+  }
+
+  &:global(.active) {
+    background: $unnamed-color-3b486d 0% 0% no-repeat padding-box;
+  }
+}
